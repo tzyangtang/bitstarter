@@ -1,4 +1,4 @@
-1;2cvar express = require('express');
+var express = require('express');
 var fs = require('fs');
 var app = express.createServer(express.logger());
 var buf = fs.readFileSync('index.html', 'utf8');
